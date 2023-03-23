@@ -33,7 +33,7 @@ const Hero = () => {
 
 	return (
 		<div
-			className="hero min-h-[75vh]"
+			className="hero min-h-[75vh] "
 			style={{
 				backgroundImage: `url(${
 					heroContents.find((content) => content.selection == heroSelection).url

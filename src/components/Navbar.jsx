@@ -27,7 +27,7 @@ const Navbar = () => {
 		},
 	];
 	return (
-		<div className="navbar bg-primary py-5 sm:px-10 px-5">
+		<div className="navbar bg-primary py-5 sm:px-10 px-5 max-w-7xl mx-auto">
 			<div className="navbar-start">
 				<a className="btn btn-ghost normal-case text-xl">LAKSANA</a>
 				<ul className="menu menu-horizontal px-1 sm:inline-flex hidden">
